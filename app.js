@@ -1,14 +1,11 @@
 // Modules protects their variables and functions from leaking
 
-require("./xyz")
-
-const {x, calculateSum} = require("./sum");
-
+const {multiplication, calculateSum}  = require("./calculate");
 
 console.log('Namaste JS')
 
-calculateSum(1,3)
-console.log(x)
+calculateSum(10,20);
+multiplication(10,20);
 
 // var a = 10;
 // var b = 20;
